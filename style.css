@@ -12,6 +12,14 @@ h1 {
   text-align: center;
 }
 
+.my-contacts {
+  width: 100%;
+  text-align: center;
+}
+a {
+  color: darksalmon;
+  /* margin: 20px auto; */
+}
 .container {
   margin: auto;
   padding: 20px;
