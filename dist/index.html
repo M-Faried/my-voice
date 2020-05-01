@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Voice</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Voice</h1>
+
+        <button id="toggle" class="btn-toggle btn">
+            Speak Random Text
+        </button>
+
+        <div class="text-box" id="text-box">
+            <div class="close" id="close">X</div>
+            <textarea id="text" placeholder="Enter text to read..."></textarea>
+            <button class="btn" id="read">Read Text</button>
+        </div>
+
+        <div class="voice-chooser">
+            <span>Choose Voice</span>
+            <select id="voices"></select>
+        </div>
+
+        <main></main>
+
+    </div>
+
+    <script src="data.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
